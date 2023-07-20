@@ -10,10 +10,10 @@ const Header = () => {
         className="w-auto h-16"
       />
       <nav className="space-x-4 pl-4 text-lg font-medium">
-        <Link to="/" className="hover:bg-white hover:shadow-xl rounded-xl p-2">Home</Link>
-        <Link to="/skills" className="hover:bg-white hover:shadow-xl rounded-xl p-2">Skills</Link>
-        <Link to="/about" className="hover:bg-white hover:shadow-xl rounded-xl p-2">About</Link>
-        <Link to="/contact" className="hover:bg-white hover:shadow-xl rounded-xl p-2">Contact</Link>
+        <Link to="/" className="hover:bg-white hover:shadow-xl hover:text-pink rounded-xl p-2">Home</Link>
+        <Link to="/skills" className="hover:bg-white hover:shadow-xl hover:text-pink rounded-xl p-2">Skills</Link>
+        <Link to="/about" className="hover:bg-white hover:shadow-xl hover:text-pink rounded-xl p-2">About</Link>
+        <Link to="/contact" className="hover:bg-white hover:shadow-xl hover:text-pink rounded-xl p-2">Contact</Link>
       </nav>
     </header>
   );
