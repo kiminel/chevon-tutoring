@@ -1,5 +1,6 @@
 import React from "react";
 import Banner from "../components/Banner";
+import About from "../pages/About";
 
 const Home = () => {
   window.addEventListener("scroll", () => {
@@ -18,9 +19,9 @@ const Home = () => {
   });
 
   return (
-    <>
+    <div className="w-full h-full">
       <Banner />
-      <section className="flex relative justify-center items-center min-h-[100vh] bg-fill">
+      <section className="flex relative justify-center items-center md:min-h-[100vh] bg-fill">
         <img
           src="/images/classroom.png"
           alt="Classroom"
@@ -58,7 +59,8 @@ const Home = () => {
           id="child4"
         />
       </section>
-    </>
+      <About />
+    </div>
   );
 };
 
