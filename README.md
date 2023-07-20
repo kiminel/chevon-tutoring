@@ -1,6 +1,6 @@
 ## Hosted at
 
-    //host link
+[Chevon Tutoring](https://chevon-kuik-tutoring.netlify.app/)
 
 ## Start up
 
@@ -14,6 +14,7 @@
 - JavaScript
 - react-router-dom
 - Tailwind CSS
+- framer-motion
 
 ## Project
 
