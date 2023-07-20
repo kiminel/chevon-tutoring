@@ -11,6 +11,7 @@
 ## Tech Stack
 
 - React.js
+- JavaScript
 - react-router-dom
 - Tailwind CSS
 
