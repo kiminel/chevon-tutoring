@@ -1,12 +1,18 @@
-## Hosted at
+# Chevon Tutoring 👩‍🏫
+
+### Hosted Link:
 
 [Chevon Tutoring](https://chevon-kuik-tutoring.netlify.app/)
 
-## Start up
+### Local Startup
 
     npm i
     npm run build
     npm run start
+
+## About
+
+A brochure website showcasing tutoring services, provided by a qualified teacher.
 
 ## Tech Stack
 
@@ -15,7 +21,3 @@
 - react-router-dom
 - Tailwind CSS
 - framer-motion
-
-## Project
-
-A brochure website showcasing tutoring services, provided by a qualified teacher.
