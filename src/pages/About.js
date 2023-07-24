@@ -2,10 +2,10 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="w-full bg-wood pt-56 md:pt-40 pb-4 px-4 md:px-24">
-      <div className="flex flex-col bg-greyPink rounded-xl p-4 shadow-xl gap-y-4">
+    <div className="w-full pt-56 md:pt-40 pb-4 px-4 md:px-24">
+      <div className="flex flex-col rounded-xl p-4 shadow-xl gap-y-4">
         <div className="">
-          <h2 className="text-sm md:text-[1.8rem] text-darkPink font-bold pb-4 md:leading-8">
+          <h2 className="text-sm md:text-[1.8rem] font-bold pb-4 md:leading-8">
             About me
           </h2>
           <p className="text-xs md:text-lg">
@@ -21,7 +21,7 @@ const About = () => {
         </div>
 
         <div className="">
-          <h2 className="text-sm md:text-[1.8rem] text-darkPink font-bold pb-4 md:leading-8">
+          <h2 className="text-sm md:text-[1.8rem] font-bold pb-4 md:leading-8">
             My Five Pillars
           </h2>
           <ul className="text-xs md:text-lg">
@@ -38,7 +38,7 @@ const About = () => {
         </div>
 
         <div className="">
-          <h2 className="text-sm md:text-[1.8rem] text-darkPink font-bold pb-4 md:leading-8">
+          <h2 className="text-sm md:text-[1.8rem] font-bold pb-4 md:leading-8">
             My Classroom
           </h2>
           <ul className="text-xs md:text-lg">

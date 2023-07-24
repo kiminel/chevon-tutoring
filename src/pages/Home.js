@@ -1,6 +1,5 @@
 import React from "react";
 import Banner from "../components/Banner";
-import About from "../pages/About";
 
 const Home = () => {
   window.addEventListener("scroll", () => {
@@ -11,11 +10,11 @@ const Home = () => {
     let child4 = document.getElementById("child4");
     let value = window.scrollY;
 
-    child1.style.left = value * 0.2 + "px";
-    teacher.style.left = value * 0.2 + "px";
-    child2.style.left = value * -0.2 + "px";
-    child3.style.left = value * -0.2 + "px";
-    child4.style.left = value * -0.2 + "px";
+    child1.style.left = value * 0.3 + "px";
+    teacher.style.left = value * 0.3 + "px";
+    child2.style.left = value * -0.3 + "px";
+    child3.style.left = value * -0.3 + "px";
+    child4.style.left = value * -0.3 + "px";
   });
 
   return (
@@ -59,7 +58,6 @@ const Home = () => {
           id="child4"
         />
       </section>
-      <About />
     </div>
   );
 };

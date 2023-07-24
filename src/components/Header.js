@@ -22,10 +22,10 @@ const Header = () => {
             Home
           </Link>
           <Link
-            to="/skills"
+            to="/about"
             className="hover:bg-white hover:shadow-xl hover:text-pink rounded-xl p-2"
           >
-            Skills
+            About
           </Link>
           <Link
             to="/contact"

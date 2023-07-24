@@ -6,10 +6,10 @@ const Banner = () => {
     <section className="w-full flex flex-col items-center bg-fill pt-28 pb-8">
       <AnimatedText
         text={"Welcome to Chevon's Tutoring Services!"}
-        className="text-pink pb-8 text-center"
+        className="text-darkPurple pb-8 text-center"
       />
       <div className="w-2/3 bg-white rounded-2xl shadow-xl py-8 px-12 text-center">
-        <p className="text-sm md:text-[1.8rem] text-darkPink font-bold pb-4 md:leading-8">
+        <p className="text-lg md:text-[1.8rem] text-purple font-bold pb-4 leading-2 md:leading-8">
           Are you ready to embark on an exciting journey of learning and
           discovery?
         </p>
