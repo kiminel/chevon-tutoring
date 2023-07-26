@@ -28,6 +28,12 @@ const Header = () => {
             About
           </Link>
           <Link
+            to="/packages"
+            className="hover:bg-white hover:shadow-xl hover:text-pink rounded-xl p-2"
+          >
+            Packages
+          </Link>
+          <Link
             to="/contact"
             className="hover:bg-white hover:shadow-xl hover:text-pink rounded-xl p-2"
           >
